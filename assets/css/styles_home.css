@@ -1,0 +1,10 @@
+body{
+    background-image: url("/assets/images/homepage_bgimage.jpg");
+    background-size: cover;
+}
+
+section{
+    position: absolute;
+}
+
+section>

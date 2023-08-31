@@ -30,8 +30,82 @@ section > h1{
     z-index:3;
 }
 
-.box-service{
-    width: 356px;
-    height: 575px;
-    color: white;
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 110px;
+    left: 195px;
+    z-index: 3;
+}
+
+.box-service1, .box-service2, .box-service3{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(180deg,#CB73CD,white);
+    border-radius: 45px;
+
+
+    z-index: 4;
+}
+
+.box-service1{
+    margin-right:100px ;
+
+}
+
+.box-service2{
+    margin-right: 100px;
+}
+
+.box-service1>img{
+    width: 70px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 20px;
+    left:120px;
+}
+
+.box-service2>img{
+    width: 70px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 20px;
+    left:512px;
+}
+
+.box-service3>img{
+    width: 70px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 20px;
+    right: 122px;
+}
+
+.box-service1 > p{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 130px;
+    text-align: justify;
+    font-weight: bold;
+    color: black;
+}
+
+.box-service2 > p{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 130px;
+    text-align: justify;
+    font-weight: bold;
+    color: black;
+}
+
+.box-service3 > p{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 130px;
+    text-align: justify;
+    font-weight: bold;
+    color: black;
 }

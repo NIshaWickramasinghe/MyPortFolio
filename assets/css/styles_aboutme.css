@@ -1,0 +1,89 @@
+section{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg ,#561456,#000000);
+    position: relative;
+}
+
+.corner-design1{
+    width: 0;
+    height: 0;
+    border-left: 203px solid transparent;
+    border-top: 187px solid white;
+
+    position: absolute;
+    right: 0;
+}
+
+.corner-design2{
+    width: 0;
+    height: 0;
+    border-left: 72px solid transparent;
+    border-right: 72px solid transparent;
+    border-top: 72px solid white;
+
+    position: absolute;
+    right: 187px;
+}
+
+.corner-design3{
+    width: 0;
+    height: 0;
+    border-left: 72px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 27px solid white;
+
+    position: absolute;
+    right: 331px;
+}
+
+section>h1{
+    font-weight: bold;
+    color: white;
+    font-size: 64px;
+
+    position: absolute;
+    right: 325px;
+    top: 50px;
+}
+
+.my_image{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(0deg,#000000 ,#8800C7);
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    left: 227px;
+    top: 141px;
+}
+
+.my_image img{
+    padding: 67px;
+}
+
+section > p{
+    text-align: justify;
+    margin-right: 200px;
+    margin-left: 650px;
+    font-weight: normal;
+    color: white;
+
+    position: absolute;
+    top: 205px;
+}
+
+section > button{
+    width: 300px;
+    height:50px ;
+    background-color: #CB73CD;
+    font-weight: bold;
+    color: black;
+    border-radius: 45px;
+
+    position: absolute;
+    right: 380px;
+    bottom: 138px;
+
+}

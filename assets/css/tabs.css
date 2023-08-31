@@ -1,3 +1,5 @@
+
+
 body{
     position: relative;
     width: 100vw;
@@ -10,35 +12,46 @@ section>img:first-child{
     left: 10px;
 }
 
-footer{
+/* footer */
+.footer {
     position: absolute;
+    display: flex;
+    align-items: center;
     bottom: 0;
-}
-
-footer>div{
-    width: 100vw;
-    height: 50px;
+    height: 80px;
+    width: 100%;
     background-color: #8800C7;
 
+}
+
+.footer > nav {
     position: absolute;
-    bottom: 0;
+    width: fit-content;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    margin: auto;
 
 }
 
-footer>div>nav>div{
-    display: inline-block;
-
-    width: 200px;
-    height: 40px;
+.footer > nav > a {
+    position: relative;
+    display: flex inline;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
     background-color: #561456;
-    border-radius: 25%;
+    margin-left: 25px;
+    margin-right: 25px;
+
+
 }
 
-.name{
-    color: white;
-}
 
-.navbar{
-    justify-content: space-evenly;
-}
 

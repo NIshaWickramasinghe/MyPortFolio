@@ -1,0 +1,41 @@
+section{
+    height: 100vh;
+    background-image: url("/assets/images/assignment_bgimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+section > h1{
+    font-weight: bold;
+    color: white;
+    font-size: 48px;
+
+    position: absolute;
+    right: 631px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    position: relative;
+}
+
+.box{
+    width: 900px;
+    height: 50px;
+    background: white;
+    border-radius: 45px;
+    margin: 12px;
+    align-items: center;
+}
+
+.box > button{
+   float: right;
+}
+

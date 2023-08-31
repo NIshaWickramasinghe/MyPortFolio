@@ -1,10 +1,81 @@
-body{
-    background-image: url("/assets/images/homepage_bgimage.jpg");
-    background-size: cover;
-}
 
 section{
-    position: absolute;
+    height: 100vh;
+    background-image: url("/assets/images/homepage_bgimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
 
-section>
+main{
+    position: relative;
+}
+
+.social-headings{
+    width: 400px;
+    height: 60px;
+    background-color: #8800C7;
+    border-bottom-left-radius: 45px;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+/*mistake*/
+
+.social2{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.text1{
+    width: 800px;
+    height: 350px;
+    background-color: white ;
+    opacity: 70%;
+    border-radius: 45px;
+
+    position: absolute;
+    right: 50px;
+    bottom: 150px;
+}
+
+.text1  h3 {
+    margin-top: 65px;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.text1 h1 {
+    margin-top: 33px;
+    margin-bottom: 8px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #8800C7;
+}
+
+.text1 h4 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text1 h5 {
+    margin-top: 20px;
+}
+
+.text1 h5 a {
+    font-size: 20px;
+    color: black;
+}
+
+.text2{
+    text-align: right;
+    margin-right: 50px;
+}
+
+
+

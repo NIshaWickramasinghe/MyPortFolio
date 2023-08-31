@@ -29,13 +29,41 @@ section > h1{
 .box{
     width: 900px;
     height: 50px;
-    background: white;
+    background: linear-gradient(180deg,#CB73CD,white);
     border-radius: 45px;
     margin: 12px;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.box > button{
-   float: right;
+.box-content{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+.box-content >button{
+    width: 200px;
+    background-color:black ;
+    margin-left: 370px;
+    border-radius: 45px;
+
+
+
+}
+
+.box-content >button >a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.box-content >img{
+    width: 30px;
+    aspect-ratio: 1/1;
+    margin-right: 20px;
 }
 

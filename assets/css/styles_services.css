@@ -1,0 +1,37 @@
+section{
+    height: 100vh;
+    background-color: #561456;
+    position: relative;
+
+    z-index: 1;
+}
+
+.bg-div{
+    width: 100vw;
+    height: 400px;
+    background-image: url("/assets/images/services_bgimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 35%;
+    z-index: 2;
+
+    position: relative;
+}
+
+section > h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: black;
+
+    position: absolute;
+    top: 20px;
+    left: 635px;
+
+    z-index:3;
+}
+
+.box-service{
+    width: 356px;
+    height: 575px;
+    color: white;
+}

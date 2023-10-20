@@ -8,9 +8,16 @@
     <link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/all.min.css">
     <link rel="stylesheet" href="assets/css/styles_aboutme.css">
     <link rel="stylesheet" href="assets/css/tabs.css">
+    <link rel="stylesheet" href="assets/css/pre_loader.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
+
+<div id="preloader">
+    <div id="preloader-overlayer"></div>
+    <img src="assets/images/pre_loader/Spinner-1s-200px.gif"  title="preloader" alt="preloader" width="100">
+</div>
 
 <section>
     <img src="assets/images/logo.png" alt="logo" width="50">
@@ -19,26 +26,26 @@
     <div class="corner-design2"></div>
     <div class="corner-design3"></div>
 
-    <h1>SO WHO AM I?</h1>
-    <div class="my_image">
+    <h1>SO WHO AM I ?</h1>
+    <div class="my_image" data-aos="zoom-in-up">
         <img src="assets/images/myImage.jpg" alt ="Nisha" width = "200">
     </div>
 
-    <p>    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque consectetur, cupiditate deleniti
-        dignissimos earum error et expedita ipsum iusto maxime nemo non numquam quidem repellendus sapiente sequi sunt velit?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque consectetur, cupiditate deleniti
-        dignissimos earum error et expedita ipsum iusto maxime nemo non numquam quidem repellendus sapiente sequi sunt velit?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque consectetur, cupiditate deleniti
-        dignissimos earum error et expedita ipsum iusto maxime nemo non numquam quidem repellendus sapiente sequi sunt velit?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque consectetur, cupiditate deleniti
-        dignissimos earum error et expedita ipsum iusto maxime nemo non numquam quidem repellendus sapiente sequi sunt velit?
+    <p>
+        Hello! I'm Nishadini S. Wickramasinghe from Sri Lanka.
+        <br>
+        <br>
+        I'm currently attending Institute Of Java and Software Engineering as a software engineering student.
 
         <br>
         <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque consectetur, cupiditate deleniti
-        dignissimos earum error et expedita ipsum iusto maxime nemo non numquam quidem repellendus sapiente sequi sunt velit?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque consectetur, cupiditate deleniti
-        dignissimos earum error et expedita ipsum iusto maxime nemo non numquam quidem repellendus sapiente sequi sunt velit?
+        I enjoy building software to solve real world problems. Also I'm so passionate about it. I'm clever at both
+        frontend and backend developing. Feel free to take a look at my most recent projects.
+        <br>
+        <br>
+        I did my ordinary level exam and Advanced level exam very well. To know about my educational status ,
+        click the button below and download my CV.
+
     </p>
 
     <br>
@@ -59,5 +66,28 @@
 
 </section>
 
+
+<script src="assets/lib/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+
+    window.addEventListener("load", ()=>{
+        $("#preloader").css("display", "none");
+    })
+
+    // window.onload = ()=>{
+    //     $("#preloader").css("display", "none");
+    // }
+
+    document.addEventListener("DOMContentLoaded" , ()=>{
+        console.log("B");
+    })
+
+    $(window).ready (()=>{
+        console.log("C");
+    })
+</script>
 </body>
 </html>

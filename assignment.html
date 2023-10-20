@@ -8,8 +8,15 @@
     <link rel="stylesheet" href="assets/fontawesome-free-6.4.2-web/css/all.min.css">
     <link rel="stylesheet" href="assets/css/styles_assignment.css">
     <link rel="stylesheet" href="assets/css/tabs.css">
+    <link rel="stylesheet" href="assets/css/pre_loader.css">
 </head>
 <body>
+
+<div id="preloader">
+    <div id="preloader-overlayer"></div>
+    <img src="assets/images/pre_loader/Spinner-1s-200px.gif"  title="preloader" alt="preloader" width="100">
+</div>
+
 <section>
     <img src="assets/images/logo.png" alt="logo" width="50">
     <br>
@@ -80,5 +87,25 @@
         <a href="contactme.html">Contact Me</a>
     </nav>
 </footer>
+
+<script src="assets/lib/jquery.min.js"></script>
+<script>
+
+    window.addEventListener("load", ()=>{
+        $("#preloader").css("display", "none");
+    })
+
+    // window.onload = ()=>{
+    //     $("#preloader").css("display", "none");
+    // }
+
+    document.addEventListener("DOMContentLoaded" , ()=>{
+        console.log("B");
+    })
+
+    $(window).ready (()=>{
+        console.log("C");
+    })
+</script>
 </body>
 </html>

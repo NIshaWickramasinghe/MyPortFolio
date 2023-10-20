@@ -1,0 +1,90 @@
+section{
+    height: 100vh;
+    background: linear-gradient(90deg,#ffffff,#EFD5F0,#CB73CD);
+    position: relative;
+
+    z-index: 1;
+}
+
+.vertical_rule{
+    content: "";
+    width: 3px; /* Set the width of the vertical rule */
+    height: 100%; /* Make the rule the same height as its container */
+    background-color:#561456; /* Set the color of the rule */
+    margin: 0 20px;
+
+    position: absolute;
+    right: 500px;
+}
+
+.header1{
+    position: absolute;
+    top: 40px;
+    left: 360px;
+
+}
+
+.header2{
+    position: absolute;
+    top: 40px;
+    right: 160px;
+}
+
+.form1{
+    width: 710px;
+    height: 500px;
+    background-image: url("/assets/images/contactme_bgimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: 2;
+    position: absolute;
+    top: 114px;
+    left: 106px;
+}
+
+.form1> p{
+    margin: 20px;
+}
+
+.socials{
+    position: absolute;
+    top: 140px;
+    right: 112px;
+}
+
+.social3{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.copyright{
+    width: 410px;
+    height: 120px;
+    position: absolute;
+    bottom: 141px;
+    right: 31px;
+}
+
+.copyright > img{
+    width: 19px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+
+.copyright > h6{
+    font-size: 20px;
+    margin-top: 22px;
+    position: absolute;
+    left: 18px;
+}
+
+.copyright > h5 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 55px;
+}

@@ -87,3 +87,63 @@ section > button{
     bottom: 138px;
 
 }
+
+/*-----------------------------------------desktop size-----------------------------------------------e*/
+
+@media all and (max-width: 1024px) {
+    section >h1 {
+        font-size: 50px;
+        right: 189px;
+        top: 50px;
+    }
+
+    .my_image{
+        width: 250px;
+        height: 338px;
+        left: 135px;
+    }
+
+    section > p {
+        margin-right: 107px;
+        margin-left: 469px;
+        top: 172px;
+    }
+
+    section > button{
+        height: 36px;
+        right: 187px;
+    }
+}
+
+/*-----------------------------------------tablet size-----------------------------------------------e*/
+@media all and (max-width: 768px) {
+
+    section >h1 {
+        font-size: 50px;
+        right: 113px;
+        top: 93px;
+    }
+
+    .my_image{
+        left: 107px;
+        top: 185px;
+    }
+
+    section > p {
+        margin-right: 90px;
+        margin-left: 469px;
+        top: 265px;
+    }
+
+    section > button{
+        height: 36px;
+        right: 165px;
+        bottom: 154px;
+    }
+
+}
+
+/*-----------------------------------------mobile size-----------------------------------------------e*/
+@media all and (max-width: 320px) {
+
+}

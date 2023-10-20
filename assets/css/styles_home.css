@@ -77,5 +77,61 @@ main{
     margin-right: 50px;
 }
 
+/*-----------------------------------------desktop size-----------------------------------------------e*/
 
+@media all and (max-width: 1024px) {
+    .text1{
+        width: 726px;
+    }
 
+}
+
+/*-----------------------------------------tablet size-----------------------------------------------e*/
+@media all and (max-width: 768px) {
+
+    .social-headings{
+        width: 317px;
+        height: 49px;
+    }
+
+    .social-headings > a >img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .text1{
+        width: 526px;
+        height: 290px;
+    }
+
+    .text1 h1{
+        margin-top: 26px;
+        font-size: 35px;
+    }
+
+    .text1  h3{
+        font-size: 26px;
+    }
+
+    .text1 h4{
+        font-size: 26px;
+    }
+
+}
+
+/*-----------------------------------------mobile size-----------------------------------------------e*/
+@media all and (max-width: 320px) {
+
+    .social-headings{
+        border-bottom-left-radius: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    /*.social2{*/
+    /*    margin-right: 5px;*/
+    /*}*/
+
+}

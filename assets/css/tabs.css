@@ -55,5 +55,41 @@ section>img:first-child{
 
 }
 
+/*-----------------------------------------desktop size-----------------------------------------------e*/
 
+@media all and (max-width: 1024px) {
+    .footer > nav > a{
+        width: 136px;
+        height: 50px;
+        margin-left: 12px;
+        margin-right: 12px;
+
+    }
+
+}
+
+/*-----------------------------------------tablet size-----------------------------------------------e*/
+@media all and (max-width: 768px) {
+    .footer > nav > a{
+        font-size: 14px;
+        width: 97px;
+        height: 36px;
+        margin-left: 18px;
+        margin-right: 6px;
+    }
+
+
+}
+
+/*-----------------------------------------mobile size-----------------------------------------------e*/
+@media all and (max-width: 320px) {
+    section>img:first-child{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+
+}
 

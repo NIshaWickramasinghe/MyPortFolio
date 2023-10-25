@@ -77,6 +77,14 @@ main{
     margin-right: 50px;
 }
 
+
+/*-----------------------------------------media query-----------------------------------------------e*/
+
+
+/*-----------------------------------------1401 size-----------------------------------------------e*/
+@media all and (max-width: 1401px) {
+
+}
 /*-----------------------------------------desktop size-----------------------------------------------e*/
 
 @media all and (max-width: 1024px) {
@@ -85,6 +93,7 @@ main{
     }
 
 }
+
 
 /*-----------------------------------------tablet size-----------------------------------------------e*/
 @media all and (max-width: 768px) {
@@ -120,6 +129,48 @@ main{
 }
 
 /*-----------------------------------------mobile size-----------------------------------------------e*/
+@media all and (max-width: 426px) {
+    section{
+        height: 100vh;
+        background-image: url("/assets/images/homepage_bgimage.jpg");
+        background-size: 100% 70%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-color: #8800C7;
+        background-clip: content-box;
+        position: relative;
+    }
+
+    .text1{
+        width: 377px;
+        position: absolute;
+        right: 25px;
+        bottom: 60px;
+    }
+
+    .text2{
+        margin-right: 22px;
+    }
+
+    .text1 > h1 {
+        font-size: 26px;
+    }
+
+    .text1 > h3 {
+        font-size: 24px;
+    }
+
+    .text1 > h4 {
+        font-size: 26px;
+    }
+}
+
+
+@media all and (max-width: 375px) {
+
+}
+
+
 @media all and (max-width: 320px) {
 
     .social-headings{

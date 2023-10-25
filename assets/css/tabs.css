@@ -55,9 +55,24 @@ section>img:first-child{
 
 }
 
-/*-----------------------------------------desktop size-----------------------------------------------e*/
 
-@media all and (max-width: 1024px) {
+
+/*-----------------------------------------1401 size-----------------------------------------------*/
+@media all and (max-width: 1401px) {
+    .footer > nav > a{
+        width: 140px;
+    }
+}
+
+/*-----------------------------------------1280 size-----------------------------------------------*/
+@media all and (max-width: 1286px) {
+    .footer > nav > a{
+        width: 112px;
+    }
+}
+/*-----------------------------------------desktop size(1024)-----------------------------------------------*/
+
+@media all and ( max-width: 1024px) {
     .footer > nav > a{
         width: 136px;
         height: 50px;
@@ -68,7 +83,28 @@ section>img:first-child{
 
 }
 
-/*-----------------------------------------tablet size-----------------------------------------------e*/
+/*-----------------------------------------998 size-----------------------------------------------*/
+@media all and (max-width: 998px) {
+    .footer > nav > a{
+        width: 105px;
+        height: 42px;
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+}
+
+/*-----------------------------------------831 size-----------------------------------------------*/
+@media all and (max-width: 831px) {
+    .footer > nav > a{
+        margin-left: 9px;
+        margin-right: 9px;
+
+    }
+}
+
+/*-----------------------------------------tablet size (768)-----------------------------------------------*/
 @media all and (max-width: 768px) {
     .footer > nav > a{
         font-size: 14px;
@@ -81,8 +117,31 @@ section>img:first-child{
 
 }
 
-/*-----------------------------------------mobile size-----------------------------------------------e*/
-@media all and (max-width: 320px) {
+/*-----------------------------------------748 size-----------------------------------------------*/
+@media all and (max-width: 748px) {
+    .footer > nav > a{
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+
+}
+
+/*-----------------------------------------618 size-----------------------------------------------*/
+@media all and (max-width: 618px) {
+    .footer > nav > a{
+        font-size: 12px;
+        width: 66px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+
+}
+
+/*-----------------------------------------mobile size-----------------------------------------------*/
+
+@media all and (max-width: 426px) {
     section>img:first-child{
         display: none;
     }
@@ -93,3 +152,24 @@ section>img:first-child{
 
 }
 
+@media all and (max-width: 375px) {
+    section>img:first-child{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 320px) {
+    section>img:first-child{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+
+}

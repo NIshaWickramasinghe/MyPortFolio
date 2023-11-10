@@ -45,7 +45,28 @@ section{
 }
 
 .form1> p{
-    margin: 20px;
+    margin-left: 191px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form1> label{
+    margin-left: 141px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.form1> input{
+    margin-left: 141px;
+}
+
+.form1 > input:last-child{
+    width: 365px;
+    background-color: #CB73CD;
+}
+
+.form1> textarea{
+    margin-left: 141px;
 }
 
 .socials{
@@ -92,6 +113,59 @@ section{
 /*-----------------------------------------desktop size-----------------------------------------------e*/
 
 @media all and (max-width: 1024px) {
+    .header1{
+        left: 222px;
+    }
+
+    .form1 {
+        width: 590px;
+        height: 400px;
+        left: 30px;
+    }
+    .form1>p {
+        font-size: 15px;
+    }
+
+    .vertical_rule {
+        right: 355px;
+    }
+
+    .header2 {
+        right: 95px;
+    }
+
+    .socials{
+        right: 70px;
+    }
+
+    .social3{
+        margin-left: 10px;
+    }
+
+    .copyright{
+        width: 285px;
+    }
+
+    .copyright >h6 {
+        font-size: 15px;
+    }
+
+    .copyright >h5 {
+        font-size: 14px;
+    }
+
+    .form1 > label {
+        margin-left: 189px;
+    }
+
+    .form1 > input {
+        margin-left: 189px;
+    }
+
+    .form1 > textarea {
+        margin-left: 189px;
+        height: 30px;
+    }
 
 }
 

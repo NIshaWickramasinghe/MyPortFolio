@@ -1,4 +1,4 @@
-section{
+#services_section{
     height: 100vh;
     background-color: #561456;
     position: relative;
@@ -18,7 +18,7 @@ section{
     position: relative;
 }
 
-section > h1{
+#services_section > h1{
     font-weight: bold;
     font-size: 48px;
     color: black;
@@ -114,14 +114,124 @@ section > h1{
 
 @media all and (max-width: 1024px) {
 
+    #services_section > h1 {
+        left: 413px;
+    }
+
+    .box-service1, .box-service2, .box-service3{
+        width: 222px;
+        height: 333px;
+    }
+
+    .box-service1 > img {
+        width: 60px;
+        left: 77px;
+    }
+
+    .box-service2 > img {
+        width: 60px;
+        left: 405px;
+    }
+
+    .box-service3 > img {
+        width: 60px;
+        right: 83px;
+    }
+
+    .box-service1 > p {
+        font-size: 14px;
+        margin-top: 105px;
+    }
+
+    .box-service2 > p {
+        font-size: 14px;
+        margin-top: 105px;
+    }
+
+    .box-service3 > p {
+        font-size: 14px;
+        margin-top: 105px;
+    }
+
+    .services{
+        left: 78px;
+    }
+
 }
 
 /*-----------------------------------------tablet size-----------------------------------------------e*/
 @media all and (max-width: 768px) {
 
+    #services_section> h1 {
+        left: 290px;
+    }
+
+    .services {
+        left: 26px;
+    }
+
+    .box-service1, .box-service2, .box-service3{
+        width: 209px;
+    }
+
+    .box-service1{
+        margin-right: 40px;
+    }
+
+    .box-service2{
+        margin-right: 40px;
+    }
+
+    .box-service2 > img {
+        left: 322px;
+    }
+
+    .box-service3 > img {
+        right: 74px;
+    }
 }
 
 /*-----------------------------------------mobile size-----------------------------------------------e*/
-@media all and (max-width: 320px) {
+@media all and (max-width: 426px) {
+
+    #services_section{
+        height: 1220px;
+        width: 100vw;
+    }
+
+    #services_section> h1 {
+        left: 143px;
+        font-size: 35px;
+        top: 71px;
+    }
+    .services {
+        display: grid;
+        left: 96px;
+        top: 164px;
+    }
+    .box-service1 {
+
+        margin-bottom: 15px;
+    }
+    .box-service2 {
+        margin-bottom: 15px;
+
+    }
+
+    .box-service2>img {
+        left: 74px;
+        top: 363px;
+    }
+    .box-service3 > img {
+        right: 112px;
+        top: 715px;
+    }
+}
+
+@media all and (max-width: 376px) {
+
+}
+
+@media all and (max-width: 321px) {
 
 }

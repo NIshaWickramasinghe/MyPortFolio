@@ -98,6 +98,58 @@
 }
 
 /*-----------------------------------------mobile size-----------------------------------------------e*/
+
+@media all and (max-width: 426px) {
+    #assignment_section > h1 {
+        right: 84px;
+    }
+
+    .box{
+        width: 410px;
+    }
+
+    .box-content > button {
+        width: 136px;
+        margin-left: 30px;
+    }
+
+
+
+}
+
+@media all and (max-width: 376px) {
+
+    #assignment_section > h1 {
+        right: 56px;
+    }
+
+    .box{
+        width: 356px;
+    }
+
+    .box-content > button {
+        width: 111px;
+    }
+
+}
+
+
 @media all and (max-width: 320px) {
+
+    #assignment_section > h1 {
+        right: 29px;
+    }
+
+    .box{
+        width: 307px;
+    }
+
+    .box-content > button >a{
+        font-size: 11px;
+    }
+
+    .box-content > button {
+        width: 69px;
+    }
 
 }

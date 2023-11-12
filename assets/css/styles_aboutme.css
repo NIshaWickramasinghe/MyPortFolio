@@ -148,9 +148,9 @@
 
 /*-----------------------------------------mobile size-----------------------------------------------e*/
 @media all and (max-width: 426px) {
-    #aboutme_section{
-        height: 520px;
-    }
+    /*#aboutme_section{*/
+    /*    height: 520px;*/
+    /*}*/
 
     .corner-design1{
         border-left: 129px solid transparent;
@@ -201,7 +201,7 @@
 
     #aboutme_section > button{
         right: 62px;
-        bottom: 28px;
+        bottom: 64px;
     }
 }
 
@@ -241,5 +241,6 @@
     #aboutme_section > button{
         width: 250px;
         height: 29px;
+        bottom: 57px;
     }
 }

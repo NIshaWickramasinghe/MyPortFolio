@@ -229,9 +229,22 @@
 }
 
 @media all and (max-width: 376px) {
+    #services_section > h1 {
+        left: 123px;
+    }
 
+    .services{
+        left: 79px;
+    }
 }
 
 @media all and (max-width: 321px) {
 
+    #services_section > h1 {
+        left: 100px;
+    }
+
+    .services{
+        left: 56px;
+    }
 }

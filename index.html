@@ -50,7 +50,7 @@
 
             <div class="text1">
                 <h3 class="text2">HI! I'm NISHADINI</h3>
-                <h1 class="text2 animate__animated animate__bounce">A SOFTWARE DEVELOPER</h1>
+                <h1 class="text2 animate__animated animate__bounce animate__slow">A SOFTWARE DEVELOPER</h1>
                 <h4 class="text2">From Sri Lanka</h4>
                 <h5 class="text2"> <a href = "" class="hvr-grow">nishawickramasinghe73@gmail.com</a></h5>
             </div>
@@ -60,7 +60,7 @@
 
 
             <footer class="footer">
-                <nav class="">
+                <nav class="nav1">
                         <a href="index.html" class="hvr-float-shadow">Home</a>
                         <a href="aboutme.html" class="hvr-float-shadow">About Me</a>
                         <a href="projects.html" class="hvr-float-shadow">Projects</a>
@@ -71,6 +71,22 @@
             </footer>
 
 
+            <div id="btn-on" class="nav-icon">
+                <button class="button"></button>
+            </div>
+            <div id="btn-off" class="nav-icon">
+                <button class="button" ></button>
+            </div>
+            <nav id="mob-nav">
+                <ul>
+                    <li><a ><u>Home  </u></a></li>
+                    <li><a href="aboutme.html">About Me  </a></li>
+                    <li><a href="projects.html">Project </a></li>
+                    <li><a href="assignment.html" >Assignment</a></li>
+                    <li><a href="contactme.html" >Contact Me</a></li>
+                    <li><a href="services.html" >Services</a></li>
+                </ul>
+            </nav>
 
         </section>
     </main>
@@ -79,6 +95,17 @@
     <script src="assets/lib/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+        $("#btn-on").on('click', () => {
+            $("#mob-nav").css("display","block");
+            $("#btn-on").css("display","none");
+            $("#btn-off").css("display","block");
+        });
+        $("#btn-off").on('click', () => {
+            $("#mob-nav").css("display","none");
+            $("#btn-off").css("display","none");
+            $("#btn-on").css("display","block");
+        });
+
         AOS.init();
 
         window.addEventListener("load", ()=>{

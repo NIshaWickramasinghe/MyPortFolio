@@ -29,7 +29,7 @@
     <div class="corner-design2"></div>
     <div class="corner-design3"></div>
 
-    <h1 class="animate__animated animate__bounceInLeft">SO WHO AM I ?</h1>
+    <h1 class="animate__animated animate__bounceInLeft animate__slow">SO WHO AM I ?</h1>
     <div class="my_image" data-aos="zoom-in-up">
         <img src="assets/images/myImage.jpg" alt ="Nisha" width = "200">
     </div>
@@ -67,6 +67,23 @@
     </footer>
     <br>
 
+    <div id="btn-on" class="nav-icon">
+        <button class="button"></button>
+    </div>
+    <div id="btn-off" class="nav-icon">
+        <button class="button" ></button>
+    </div>
+    <nav id="mob-nav">
+        <ul>
+            <li><a href="index.html"><u>Home  </u></a></li>
+            <li><a href="aboutme.html">About Me  </a></li>
+            <li><a href="projects.html">Project </a></li>
+            <li><a href="assignment.html" >Assignment</a></li>
+            <li><a href="contactme.html" >Contact Me</a></li>
+            <li><a href="services.html" >Services</a></li>
+        </ul>
+    </nav>
+
 </section>
 
 
@@ -74,6 +91,18 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script>
+
+    $("#btn-on").on('click', () => {
+        $("#mob-nav").css("display","block");
+        $("#btn-on").css("display","none");
+        $("#btn-off").css("display","block");
+    });
+    $("#btn-off").on('click', () => {
+        $("#mob-nav").css("display","none");
+        $("#btn-off").css("display","none");
+        $("#btn-on").css("display","block");
+    });
+
     AOS.init();
 
     window.addEventListener("load", ()=>{

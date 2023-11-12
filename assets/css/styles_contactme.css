@@ -1,4 +1,4 @@
-section{
+#contactme_section{
     height: 100vh;
     background: linear-gradient(90deg,#ffffff,#EFD5F0,#CB73CD);
     position: relative;
@@ -119,7 +119,7 @@ section{
 
     .form1 {
         width: 590px;
-        height: 400px;
+        height: 391px;
         left: 30px;
     }
     .form1>p {
@@ -171,10 +171,167 @@ section{
 
 /*-----------------------------------------tablet size-----------------------------------------------e*/
 @media all and (max-width: 768px) {
+    .vertical_rule{
+        right: 253px;
+    }
 
+    .header1{
+        left: 153px;
+    }
+
+    .form1{
+        width: 450px;
+        left: 19px;
+    }
+
+    .form1 > p {
+        margin-left: 129px;
+    }
+
+    .form1 > label{
+        margin-left: 129px;
+    }
+
+    .form1 > input {
+        margin-left: 129px;
+    }
+
+    .form1 > textarea {
+        margin-left: 129px;
+    }
+
+    .form1 > input:last-child {
+        width: 295px;
+    }
+
+    .header2{
+        right: 39px;
+    }
+
+    .socials{
+        right: 17px;
+    }
+
+    .copyright{
+        width: 220px;
+    }
+
+    .copyright > img {
+        width: 13px;
+    }
+
+    .copyright > h6 {
+        font-size: 11px;
+    }
+
+    .copyright > h5 {
+        font-size: 11px;
+    }
 }
 
 /*-----------------------------------------mobile size-----------------------------------------------e*/
-@media all and (max-width: 320px) {
+@media all and (max-width: 426px) {
 
+    #contactme_section{
+        height: 850px;
+    }
+
+    .vertical_rule{
+        display: none;
+    }
+
+    .header1{
+        left: 96px;
+    }
+
+    .header2{
+        top: 513px;
+        left: 134px;
+    }
+
+    .form1{
+        width: 380px;
+    }
+
+    .form1 > input:last-child{
+        width: 222px;
+    }
+
+    .socials{
+        top: 597px;
+        right: 91px;
+    }
+
+    .copyright{
+        width: 273px;
+        bottom: 38px;
+    }
+}
+
+@media all and (max-width: 376px) {
+
+    .header1{
+        left: 70px;
+    }
+
+    .form1{
+        width: 340px;
+    }
+
+    .form1 > p {
+        margin-left: 58px;
+    }
+
+    .form1 > label{
+        margin-left: 58px;
+    }
+
+    .form1 > input {
+        margin-left: 58px;
+    }
+
+    .form1 > textarea {
+        margin-left: 58px;
+    }
+
+    .header2 {
+        left: 110px;
+    }
+
+    .socials{
+        right: 63px;
+    }
+
+    .copyright{
+        width: 254px;
+    }
+}
+
+@media all and (max-width: 321px) {
+
+    .form1{
+        width: 292px;
+        left: 13px;
+    }
+
+    .form1 > textarea{
+        width: 193px;
+
+    }
+
+    .header1{
+        left: 37px;
+    }
+
+    .header2{
+        left: 77px;
+    }
+
+    .socials{
+        right: 39px;
+    }
+
+    .copyright{
+        width: 226px;
+    }
 }

@@ -25,7 +25,7 @@
 
     <div class="bg-div"></div>
 
-    <h1 class="animate__animated animate__bounceInLeft">Services</h1>
+    <h1 class="animate__animated animate__bounceInLeft animate__slow">Services</h1>
 
     <div class="services">
         <div class="box-service1 ">
@@ -62,10 +62,39 @@
             <a href="contactme.html" class="hvr-float-shadow">Contact Me</a>
         </nav>
     </footer>
+
+    <div id="btn-on" class="nav-icon">
+        <button class="button"></button>
+    </div>
+    <div id="btn-off" class="nav-icon">
+        <button class="button" ></button>
+    </div>
+    <nav id="mob-nav">
+        <ul>
+            <li><a href="index.html"><u>Home  </u></a></li>
+            <li><a href="aboutme.html">About Me  </a></li>
+            <li><a href="projects.html">Project </a></li>
+            <li><a href="assignment.html" >Assignment</a></li>
+            <li><a href="contactme.html" >Contact Me</a></li>
+            <li><a href="services.html" >Services</a></li>
+        </ul>
+    </nav>
+
 </section>
 
 <script src="assets/lib/jquery.min.js"></script>
 <script>
+
+    $("#btn-on").on('click', () => {
+        $("#mob-nav").css("display","block");
+        $("#btn-on").css("display","none");
+        $("#btn-off").css("display","block");
+    });
+    $("#btn-off").on('click', () => {
+        $("#mob-nav").css("display","none");
+        $("#btn-off").css("display","none");
+        $("#btn-on").css("display","block");
+    });
 
     window.addEventListener("load", ()=>{
         $("#preloader").css("display", "none");
